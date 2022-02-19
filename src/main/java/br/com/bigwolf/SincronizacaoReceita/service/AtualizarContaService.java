@@ -24,7 +24,7 @@ public class AtualizarContaService implements Runnable {
         atualizarConta();
     }
 
-    private synchronized void atualizarConta() {
+    private void atualizarConta() {
         ContaBancaria contaAtualizada = controller.atualizarConta(conta);
         listaAtualizada.add(contaAtualizada);
     }
