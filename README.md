@@ -12,5 +12,6 @@
 
 - Execução
   - Execução do programa: ```java -jar SincronizacaoReceita-[:versao].jar :nome_do_arquivo.csv```
+    - Observação: Se não passar o caminho do arquivo como parametro, ele irá buscar pelo arquivo padrão ```index.csv``` 
 
 
